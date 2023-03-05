@@ -1,0 +1,17 @@
+Algoritmo "sequencias"
+
+Var
+   N  :inteiro;
+   R1 :inteiro;
+   R2 :inteiro;
+
+Inicio
+      escreva ("Escreva um número inteiro: ");
+      leia (N);
+      R1 <- N-1;
+      R2 <- N+1;
+      escreval ("Seu número é", N);
+      escreval ("Seu antecessor é", R1);
+      escreva ("E seu sucessor é", R2);
+
+Fimalgoritmo
