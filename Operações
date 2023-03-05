@@ -1,0 +1,34 @@
+Algoritmo "operações"
+
+Var
+   A,B:inteiro
+   R: real
+   operacao: caracter
+
+Inicio
+      escreval ("Digite dois números: ")
+      leia (A, B)
+      escreva ("Escolha a operação (+ - * /):")
+      leia (operacao)
+      
+      escolha (operacao)
+      caso "+"
+         R <- A+B
+         escreva ("Soma=", R)
+      caso "-"
+         R <- A-B
+         escreva ("Subtração=", R)
+      caso "*"
+         R <- A*B
+         escreva ("Multiplicação=", R)
+      caso "/"
+         se (B <> 0) entao
+            R <- A/B
+            escreva ("Divisão=", R)
+         senao
+            escreva ("Não existe divisão por zero")
+         fimse
+      outrocaso
+         escreva ("Operação Inválida")
+      fimescolha
+fimalgoritmo
