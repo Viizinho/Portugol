@@ -1,0 +1,18 @@
+Algoritmo "maior"
+Var
+   A,B,C: real
+
+Inicio
+   escreval ("Digite 3 números")
+   leia (A, B, C)
+
+   se (A>B) e (A>C) entao
+      escreva ("Maior =", A)
+   senão
+      se (B>C) entao
+         escreva ("Maior =", B)
+         senao
+              escreva ("Maior =", C)
+              fimse
+   fimse
+Fimalgoritmo
