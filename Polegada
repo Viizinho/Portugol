@@ -1,0 +1,11 @@
+Algoritmo "Polegada"
+Var
+   C,P: real
+
+Inicio
+   escreval ("Escreva um número em centímetros")
+   leia (C)
+   P <- C/2.54
+   escreval ("O valor em polegadas é:", P)
+
+Fimalgoritmo
