@@ -1,0 +1,13 @@
+Algoritmo "Cilíndro"
+Var
+   H,R,A,V: real
+
+Inicio
+   escreval ("Escreva o Raio da base e a Altura do cilindro")
+   leia (R, H)
+   A <- 2*pi*r*h + 2*pi*r^2
+   V <- pi*R^2*H
+   escreval ("Sua área é", A)
+   escreval ("Seu volume é", V)
+
+Fimalgoritmo
